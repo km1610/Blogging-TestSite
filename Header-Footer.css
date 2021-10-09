@@ -1,0 +1,119 @@
+body {
+	margin: 0;
+}
+header {
+	margin-bottom: 70px;
+}
+#header1{
+	background-color: #FFCD00;
+	padding: 30px;
+	
+}
+#header2{
+	background-color: white;
+	border: 2px solid #FFCD00;
+	position: absolute;
+	width: 100%;
+	box-sizing: border-box;
+}
+#header2 a{
+	float: left;
+	text-decoration: none;
+	padding: 20px;
+	width: 33.33%;
+	color: #FFCD00;
+	box-sizing: border-box;
+	text-align: center;
+	transition: 0.3s;
+}
+#header2 a:hover {
+	background-color: #FFCD00;
+	color: white;
+}
+#BName {
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+}
+.facebook {
+	color: blue;
+}
+.twitter {
+	color: skyblue;
+}
+.instagram {
+	color: purple;
+}
+.youtube {
+	color: red;
+}
+
+footer {
+	color: white;
+	background-color: #FFCD00;
+	width: 100%;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+
+@media (min-width: 992px) {
+	#BName {
+		font-size: 30px;
+	}
+	.fa {
+		font-size: 30px;
+		padding: 10px;
+		/* border: 1px solid black; */
+	}
+	#SMLinks {
+		float: right;
+	}
+}
+@media (max-width: 991px) and (min-width: 768px) {
+	#SMLinks {
+		float: right;
+	}
+	#BName {
+		font-size: 26px;
+	}
+	.fa {
+		font-size: 26px;
+		padding: 10px;
+		/* border: 1px solid black; */
+	}
+}
+@media (max-width: 767px) and (min-width: 450px) {
+	#SMLinks {
+		float: right;
+	}
+	#BName {
+		font-size: 22px;
+	}
+	.fa {
+		font-size: 22px;
+		padding: 10px;
+		/* border: 1px solid black; */
+	}
+}
+@media (max-width: 449px) {
+	footer {
+		font-size: 12px;
+	}
+	#SMLinks {
+		float: right;
+	}
+	#BName {
+		font-size: 22px;
+	}
+	.fa {
+		font-size: 22px;
+		padding: 5px;
+		/* border: 1px solid black; */
+	}
+	#header2 a{
+		font-size: 12px;
+	}
+}
